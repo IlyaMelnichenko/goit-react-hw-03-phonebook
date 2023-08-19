@@ -10,7 +10,7 @@ export const PhoneItem = ({ deleteContact, contact }) => {
         value={contact.id}
         onClick={evt => deleteContact(evt.target.value)}
       >
-        Delete
+        toDelete
       </RemoveButton>
     </>
   );
